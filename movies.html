@@ -14,20 +14,12 @@
     </header>
 
     <section class="container">
-        <article class="jumbotron">
-            <h3 class="text-center">Search For Any Movie</h3>
-            <form id="searchForm">
-                <input type="text" class="form-control" id="searchText" placeholder="Search Movie. . .">
-            </form>
-        </article>
-    </section>
-
-    <section class="container">
-        <article id="movies" class="row"></article>
+        <article id="movie" class="well"></article>
     </section>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="./assets/js/script.js"></script>
+    <script>getMovie();</script>
 </body>
 </html>
